@@ -65,7 +65,7 @@
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix> 
                             <classpathLayoutType>simple</classpathLayoutType>
-                            <mainClass>hot.HashTextGui</mainClass>
+                            <mainClass>SJmp3.SJmp3gui</mainClass>
                         </manifest>
                         <manifestEntries>
                             <Version>${buildNumber}</Version>
