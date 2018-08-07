@@ -28,7 +28,7 @@ public class SJmp3gui extends javax.swing.JFrame {
 
     public SJmp3gui() {
         initComponents();
-        this.top="SJmp3 - Small Java mp3 player, maven build: 31-07-18";
+        this.top="SJmp3 - Small Java mp3 player, maven build: 07-08-18";
         this.setTitle(top);
         //LST1.setComponentPopupMenu(mPopup);
         FrameIcon = new ImageIcon(getClass().getResource("/SJmp3/img/SubFrameIcon.png"));

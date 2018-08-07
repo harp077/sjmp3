@@ -69,6 +69,7 @@
                         </manifest>
                         <manifestEntries>
                             <Version>${buildNumber}</Version>
+                            <SplashScreen-Image>SJmp3/img/sjmp3_main.png</SplashScreen-Image>
                         </manifestEntries>
                     </archive>
                 </configuration>
