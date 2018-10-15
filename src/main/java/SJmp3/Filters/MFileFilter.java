@@ -10,6 +10,7 @@ public class MFileFilter extends javax.swing.filechooser.FileFilter {
         this.ext=txt;
     }
     
+    @Override
     public boolean accept(File f){
         if(f==null)
           return false;
@@ -20,6 +21,7 @@ public class MFileFilter extends javax.swing.filechooser.FileFilter {
           return (f.getName().endsWith(ext)||f.getName().endsWith(ext.toUpperCase()));
       }
     
+    @Override
     public String getDescription(){
           return "Files:  *"+ext;
     }
